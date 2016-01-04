@@ -77,16 +77,15 @@
     </scm>
 
     <distributionManagement>
-        <repository>
-            <id>jboss-releases-repository</id>
-            <name>JBoss Releases Repository</name>
-            <url>https://repository.jboss.org/nexus/service/local/staging/deploy/maven2/</url>
-        </repository>
-        <snapshotRepository>
-            <id>jboss-snapshots-repository</id>
-            <name>JBoss Snapshots Repository</name>
-            <url>https://repository.jboss.org/nexus/content/repositories/snapshots/</url>
-        </snapshotRepository>
+		<repository>
+			<id>bm_releases</id>
+			<url>http://forge.blue-mind.net/nexus/content/repositories/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>bm_snapshots</id>
+			<url>http://forge.blue-mind.net/nexus/content/repositories/snapshots</url>
+		</snapshotRepository>
+
     </distributionManagement>
 
     <issueManagement>
