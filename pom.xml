@@ -487,6 +487,7 @@
                 <module>integration/hornetq-twitter-integration</module>
                 <module>integration/hornetq-aerogear-integration</module>
                 <module>tests</module>
+		<module>uberjar</module>
             </modules>
         </profile>
         <profile>
